@@ -24,7 +24,7 @@ class UserManager
         return $users;
     }
 
-    public function addUser($pseudo, $email, $pwd)
+    public static function addUser($pseudo, $email, $pwd)
     {
         $db = getConnection();
         $query = $db->prepare('INSERT INTO users(pseudo, email, pwd) VALUES(:pseudo, :email, :pwd)');
