@@ -1,7 +1,5 @@
 <?php
 
-require 'model/managers/connection.php';
-
 class UserManager 
 {
     public static function getUser($pseudo)
