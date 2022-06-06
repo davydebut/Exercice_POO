@@ -1,4 +1,4 @@
-<body style="display: flex;align-items: center;padding-top: 40px;padding-bottom: 40px;background-color: #f5f5f5;">
+<div class="corps" style="display: flex;align-items: center;padding-top: 40px;padding-bottom: 40px;background-color: #f5f5f5;">
     <div class="container containersignin">
         <main class="form-signin">
             <button type="button" onclick="window.location.href='index.php'" class="btn-close mb-5" aria-label="Close" style="float: left;"></button>
@@ -28,4 +28,4 @@
             </form>
         </main>
     </div>
-</body>
+</div>
